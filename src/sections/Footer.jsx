@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Derechos de autor */}
           <div>
             <p className="text-sm text-gray-600 text-center md:text-right">
-              © {new Date().getFullYear()} Adrian Hajdin. All rights reserved.
+              © {new Date().getFullYear()} Lim.Orii. All rights reserved.
             </p>
           </div>
 

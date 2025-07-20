@@ -46,17 +46,17 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>diseñador e ingeniero</h1>
+              <h1>Diseñador e ingeniero</h1>
               <h1>tecnología con alma.</h1>
             </div>
 
             <p className="text-blue-100 md:text-xl relative z-10 pointer-events-none">
-              Hola, soy Limori, diseñador industrial e
+              Hola, soy Daniel, diseñador industrial e
               ingeniero de sistemas en formación
             </p>
 
             <Button
-              text="See My Work"
+              text="Mis Trabajos"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />

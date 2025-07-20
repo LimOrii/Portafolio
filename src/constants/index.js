@@ -1,31 +1,31 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Trabajo",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "Experiencia",
     link: "#experience",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     link: "#skills",
   },
   {
-    name: "Testimonials",
+    name: "Testimonios",
     link: "#testimonials",
   },
 ];
 
 const words = [
-  { text: "Robotics", imgPath: "/images/ideas.svg" },
-  { text: "Empathy" , imgPath: "/images/concepts.svg" },
-  { text: "Accessibility", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Design", imgPath: "/images/ideas.svg" },
+  { text: "Robotica", imgPath: "/images/ideas.svg" },
+  { text: "Empatía" , imgPath: "/images/concepts.svg" },
+  { text: "Accesibilidad", imgPath: "/images/designs.svg" },
+  { text: "Codigo", imgPath: "/images/code.svg" },
+  { text: "Diseño", imgPath: "/images/ideas.svg" },
   { text: "Inclusion", imgPath: "/images/concepts.svg" },
-  { text: "Innovation", imgPath: "/images/designs.svg" },
-  { text: "Future", imgPath: "/images/code.svg" },
+  { text: "Innovación", imgPath: "/images/designs.svg" },
+  { text: "Futuro", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
@@ -74,20 +74,21 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Empathetic Technology",
+    desc: "Diseño soluciones que combinan robótica y sensibilidad humana para mejorar vidas con propósito.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Human-Centered Engineering",
+    desc: "Equilibro la funcionalidad con la estética para crear experiencias útiles, inclusivas y transformadoras.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Technical Precision",
+    desc: "Desde el concepto hasta la implementación, ejecuto con rigor técnico y alto estándar de calidad.",
   },
 ];
+
 
 const techStackImgs = [
   {
@@ -114,103 +115,104 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name : "React Developer ",
+    name : "Programador UI",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Programador UX",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Codigo interactivo",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Administrador de proyectos",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
   {
-    name : "React Developer ",
+    name : "modelado y simulado ",
     modelPath: "/models/blender.glb",
     scale: 0.5,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Modelado parametrico",
     modelPath: "/models/0 (1).glb",
     scale: 0.06,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Proyectos electrónicos",
     modelPath: "/models/1.glb",
     scale: 30,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Programador de sistemas",
     modelPath: "/models/0.glb",
     scale: 1.5,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Robotica",
     modelPath: "/models/ROS.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
-
-
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+        "Limori combinó diseño e ingeniería para optimizar procesos industriales y desarrollar productos funcionales con identidad propia. Su visión aportó soluciones tangibles desde el usuario hasta la manufactura.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Diseñador e Ingeniero de Producto – Kolimplongs",
+    date: "Agosto 2024 - Diciembre 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Diseño y mejora de marcos de bicicletas tipo fixie optimizados para producción automatizada.",
+      "Cálculo de costos, desperdicio de materia prima y procesos para producción industrial.",
+      "Desarrollo visual del producto y análisis ergonómico del usuario final.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+        "Desde el Aula STEAM, Limori desarrolló Proyectos centrados en la empatía y la inclusión, transformando necesidades sociales en soluciones funcionales.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Auxiliar Aula STEAM – Universidad Nacional de Colombia",
+    date: "Mayo 2025 - Presente",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Diseño de sillas de ruedas inclusivas para niños con parálisis cerebral.",
+      "Desarrollo de un traductor obstétrico visual para comunidades con baja alfabetización.",
+      "Diseño de tricimóviles funcionales para movilidad alternativa en zonas urbanas.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+        "El portafolio Lim.Orii refleja una integración impecable entre diseño visual, interacción digital y narrativa técnica. Una plataforma viva que demuestra el potencial de la robótica con propósito.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Desarrollador y Diseñador Web – Portafolio Lim.Orii",
+    date: "Febrero 2025 - Presente",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Programación desde cero con React, Tailwind, Three.js y modelos 3D.",
+      "Diseño de identidad visual y experiencia de usuario con foco técnico y emocional.",
+      "Integración de marca personal, despliegue en GitHub y Netlify, y optimización web.",
     ],
   },
 ];
